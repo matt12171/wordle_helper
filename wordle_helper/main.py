@@ -96,7 +96,7 @@ while status:
         # goes through word list and adds words beginning with char to list
         if chars[i] != '=':
             for word in words_list_5:
-                if chars[i] == word[0]:
+                if chars[i] == word[i]:
                     char_lists[i].append(word)
 
             # Clear list and add new words
