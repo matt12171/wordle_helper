@@ -122,7 +122,7 @@ while status == True:
     
     while True:
         char_2 = input('2nd character?: ').lower()
-        if char_2 in alpha and len(char_2) == 1 or char_1 == '=':
+        if char_2 in alpha and len(char_2) == 1 or char_2 == '=':
             break
         else:
             print('')
@@ -131,7 +131,7 @@ while status == True:
     
     while True:
         char_3 = input('3rd character?: ').lower()
-        if char_3 in alpha and len(char_3) == 1 or char_1 == '=':
+        if char_3 in alpha and len(char_3) == 1 or char_3 == '=':
             break
         else:
             print('')
@@ -140,7 +140,7 @@ while status == True:
     
     while True:
         char_4 = input('4th character?: ').lower()
-        if char_4 in alpha and len(char_4) == 1 or char_1 == '=':
+        if char_4 in alpha and len(char_4) == 1 or char_4 == '=':
             break
         else:
             print('')
@@ -149,7 +149,7 @@ while status == True:
     
     while True:
         char_5 = input('5th character?: ').lower()
-        if char_5 in alpha and len(char_5) == 1 or char_1 == '=':
+        if char_5 in alpha and len(char_5) == 1 or char_5 == '=':
             break
         else:
             print('')
